@@ -5,10 +5,10 @@ import NumBox from "./NumBox";
 import SwitchBox from "./SwitchBox";
 import SelectBox from "./SelectBox";
 import PeriodicMessage from "./PeriodicMessage";
-import data from "./radios/Radio1.json";
-import data2 from "./radios/Radio2.json";
-import data3 from "./radios/Radio3.json";
-import data4 from "./radios/Radio4.json";
+import data from "./Devices/Device1.json";
+import data2 from "./Devices/Device2.json";
+import data3 from "./Devices/Device3.json";
+import data4 from "./Devices/Device4.json";
 import homeIcon from "../homeIcon.png";
 import "../MessageTrain.css";
 import "../PeriodicMessage.css";
@@ -24,10 +24,10 @@ const AppSimulator = () => {
   };
 
   const dataSetMap = {
-    "Radio 1": data,
-    "Radio 2": data2,
-    "Radio 3": data3,
-    "Radio 4": data4,
+    "Device 1": data,
+    "Device 2": data2,
+    "Device 3": data3,
+    "Device 4": data4,
   };
 
   const [jsonData, setJsonData] = useState(null);
