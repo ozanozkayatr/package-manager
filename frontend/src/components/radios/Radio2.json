@@ -1,0 +1,103 @@
+{
+  "uiSets": [
+    {
+      "name": "01",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "First",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Second",
+          "bytes": 1,
+          "value": 1
+        },
+        {
+          "type": "hidden",
+          "label": "Third",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "hidden",
+          "label": "Fourth",
+          "bytes": 1,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "02",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "First",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Second",
+          "bytes": 1,
+          "value": 2
+        },
+        {
+          "type": "hidden",
+          "label": "Third",
+          "bytes": 2,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "03",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "First",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Second",
+          "bytes": 1,
+          "value": 21
+        },
+        {
+          "type": "hidden",
+          "label": "Third",
+          "bytes": 2,
+          "value": 33
+        }
+      ]
+    },
+    {
+      "name": "04",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "First",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Second",
+          "bytes": 1,
+          "value": 6
+        },
+        {
+          "type": "hidden",
+          "label": "Third",
+          "bytes": 2,
+          "value": 17
+        }
+      ]
+    }
+  ],
+  "checksum": true
+}

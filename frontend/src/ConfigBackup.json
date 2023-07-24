@@ -1,0 +1,2154 @@
+{
+  "checksum": true,
+  "uiSets": [
+    {
+      "name": "Anlaşıldı",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 1
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "hidden",
+          "label": "Doğrulanan Paket Numarası",
+          "bytes": 1,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Anlaşılmadı",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 2
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Telsiz Durumu",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 122
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Telsiz Durumu",
+          "bytes": 1,
+          "options": [
+            { "label": "RADIO_STATE_LIMITED_ACCESS_INIT", "value": "0" },
+            { "label": "RADIO_STATE_CRYPTO_CITs_READY", "value": "1" },
+            { "label": "RADIO_STATE_STARTUP_CITs_READY", "value": "2" },
+            { "label": "RADIO_STATE_CIT_RESULT_NO_GO", "value": "3" },
+            { "label": "RADIO_STATE_WAITING_PIN", "value": "4" },
+            { "label": "RADIO_STATE_LOADING_OP_PARAMS", "value": "5" },
+            { "label": "RADIO_STATE_OP_PARAMS_LOADED", "value": "6" },
+            { "label": "RADIO_STATE_LOADING_NET_PARAMS", "value": "7" },
+            { "label": "RADIO_STATE_NET_PARAMS_LOADED", "value": "8" },
+            { "label": "RADIO_STATE_FULL_ACCESS", "value": "9" },
+            { "label": "RADIO_STATE_LIMITED_ACCESS_ALARM", "value": "10" },
+            { "label": "RADIO_STATE_OP_PARAMS_NOT_LOADED", "value": "11" },
+            { "label": "RADIO_STATE_KEY_NET_LOADING", "value": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pin Giriş İsteği",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 123
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Pin Sunucu",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 124
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Pin Sonucu",
+          "bytes": 1,
+          "options": [
+            { "label": "Yanlış", "value": "0" },
+            { "label": "Doğru", "value": "1" },
+            { "label": "Ekim İlkleme Doğru", "value": "2" },
+            { "label": "Hizmet Dışı", "value": "3" },
+            { "label": "Ekim İlkleme Hata", "value": "4" },
+            { "label": "Anlamsız", "value": "5" },
+            { "label": "Arızalı veya yok", "value": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mesaj listesi Dolu Uyarısı",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 191
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Mesaj Listesi Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": 1, "label": "Alınan Kısa Mesaj listesi" },
+            { "value": 2, "label": "Gönderilen Kısa Mesaj Listesi" },
+            { "value": 3, "label": "Taslak Kısa Mesaj Listesi" },
+            { "value": 4, "label": "Alınan Harekat Kodu Listesi" },
+            { "value": 5, "label": "Gönderilen Harekat Kodu listesi" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açılış CİT Sonuç Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 130
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 72
+        },
+        {
+          "type": "select",
+          "label": "Açılış CİT Durumu",
+          "bytes": 1,
+          "options": [
+            { "value": "000", "label": "Devam Ediyor" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "100", "label": "Yapılmadı" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "SK_YKB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "UK_CRYPTO_ROM_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "UK_RAM_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "MODEM_MDY_MIB_LOAD_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "MODEM_MRAY_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_EKIM_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_RAM_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_KEY_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_BACKUP_KEY_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_URGENT_KEY_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_ALGORITHM_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_BATTERY_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_RTC_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_RNG_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_FREQ_HOP_KEY",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CRYPTO_TEST_STATUS",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "NET_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "NET_INIT_ERROR",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "NET_RADIO_ID_MISMATCH",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "NET_INVALID_NET_VERSION",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "CEKY_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_YFUB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_YGKB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_VLFAB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_HFAB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_FGB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_HFGB_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_RFGY_BOOT_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RF_GY_ID_MATCH_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_PPS_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_ATU_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "ACTIVE ANTENNA EXIST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_PA1_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_PA2_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "HMK_PA3050_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "HMK_PA3100_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "HMK_ATU3050_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "HMK_ATU3050_E_A_G_H_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "HMK_ATU3100_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_PREAMPLIFIER",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_1",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_2",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_3",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_4",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_5",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_6",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_7",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_POWER_SUPPLY_8",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_1",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_2",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_3",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_4",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_5",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_6",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_7",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_BOOSTER_8",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_COMBINER_4X1_1",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_COMBINER_4X1_2",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_COMBINER_2X1",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_HARMONIC_FILTER_1",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "EXTERNAL_HARMONIC_FILTER_2",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "FILKON_ATU_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RFTR_PA1_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "RFTR_PA2_HANDSHAKE_TEST",
+          "bytes": 1,
+          "options": [
+            { "value": "100", "label": "Yapılmadı" },
+            { "value": "001", "label": "Başarılı" },
+            { "value": "010", "label": "Kısmen Başarılı" },
+            { "value": "011", "label": "Başarısız" },
+            { "value": "101", "label": "Uygulanmaz" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Telsiz Kaynağı",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Split Site Devre Dışı Telsiz" },
+            { "value": 1, "label": "Split Site Kontrol Birimi" },
+            { "value": 2, "label": "Split Site Alıcı Birimi" },
+            { "value": 3, "label": "Split Site Gönderici Birimi" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seçili Çevrim Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 135
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 9
+        },
+        {
+          "type": "number",
+          "label": "Çevrim Numarası",
+          "bytes": 2,
+          "value": 0,
+          "placeholder": "1-315"
+        },
+        {
+          "type": "select",
+          "label": "Çevrim Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": "00", "label": "Sabit Frekans" },
+            { "value": "01", "label": "ALE" },
+            { "value": "10", "label": "Frekans Atlama" },
+            { "value": "11", "label": "Rezerve" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "El Kanalı Silme Durumu Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 232
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "toggle",
+          "label": "El Kanalı Silme Durumu",
+          "bytes": 1
+        }
+      ]
+    },
+    {
+      "name": "Tüm El Kanalları Silme Durumu Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 233
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "toggle",
+          "label": "Tüm El Kanalları Silinme Durumu",
+          "bytes": 1
+        }
+      ]
+    },
+    {
+      "name": "El Kanalı Ekleme/Güncelleme Durumu Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 136
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "toggle",
+          "label": "Durum (Eklenmedi / Eklendi)",
+          "bytes": 1
+        }
+      ]
+    },
+    {
+      "name": "Kripto Tipi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 148
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Kripto Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": "01", "label": "Kripto Var" },
+            { "value": "00", "label": "Kripto Yok" },
+            { "value": "10", "label": "Kripto Hizmete Özel" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ses Gönderme Tipi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 137
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Kripto Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Ses Gönderme Analog" },
+            { "value": 1, "label": "Ses Gönderme Sayısal" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alma Frekans Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 138
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 10
+        },
+        {
+          "type": "number",
+          "label": "Alma Frekansı",
+          "bytes": 4,
+          "placeholder": "0-2³²"
+        }
+      ]
+    },
+    {
+      "name": "Gönderme Frekans Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 139
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 10
+        },
+        {
+          "type": "number",
+          "label": "Gönderme Frekansı",
+          "bytes": 4,
+          "placeholder": "0-2³²"
+        }
+      ]
+    },
+    {
+      "name": "Güç Seviye Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 140
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 12
+        },
+        {
+          "type": "select",
+          "label": "Güç Seviyesi",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "number",
+          "label": "Güç Seviyesi mWatt",
+          "placeholder": "0-10000000",
+          "bytes": 4
+        }
+      ]
+    },
+    {
+      "name": "Anlık ve Yansıyan Çıkış Gücü Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 226
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 10
+        },
+        {
+          "type": "text",
+          "label": "Anlık Çıkış Gücü",
+          "placeholder": "000-3E8 (hex)",
+          "bytes": 2
+        },
+        {
+          "type": "text",
+          "label": "Yansıyan Çıkış Gücü",
+          "placeholder": "000-3E8 (hex)",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "name": "Susturma Seviye Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 141
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Susturma Seviyesi",
+          "bytes": 2,
+          "options": [
+            { "value": "000", "label": "Susturma yok" },
+            { "value": "001", "label": "Düşük" },
+            { "value": "010", "label": "Orta" },
+            { "value": "011", "label": "Yüksek" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veri Portu Testi Sonucu Bildir",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 142
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Sonuç Bilgisi",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Başarısız" },
+            { "value": 1, "label": "Başarılı" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ses Gönderme Üstünlüğü Durum Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 144
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Ses Gönderme Üstünlüğü",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Devrede Değil" },
+            { "value": 1, "label": "Devrede" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rehber İndeksi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 145
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 8
+        },
+        {
+          "type": "number",
+          "label": "Ses Gönderme Üstünlüğü",
+          "bytes": 2,
+          "value": 1,
+          "placeholder": "1-1021"
+        }
+      ]
+    },
+    {
+      "name": "Çıkış Gücü Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 146
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 19
+        },
+        {
+          "type": "number",
+          "label": "Desteklenen Çıkış Gücü Sayısı",
+          "bytes": 1,
+          "value": 0,
+          "placeholder": "0-6"
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 1",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 2",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 3",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 4",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 5",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Çıkış Gücü 6",
+          "bytes": 2,
+          "options": [
+            { "value": "00001", "label": "10 W" },
+            { "value": "00010", "label": "30 W" },
+            { "value": "00011", "label": "100 W" },
+            { "value": "00100", "label": "150 W" },
+            { "value": "00101", "label": "200 W" },
+            { "value": "00110", "label": "250 W" },
+            { "value": "00111", "label": "400 W" },
+            { "value": "01000", "label": "500 W" },
+            { "value": "01001", "label": "650 W" },
+            { "value": "01010", "label": "1 kW" },
+            { "value": "01011", "label": "2 kW" },
+            { "value": "01100", "label": "3 kW" },
+            { "value": "01101", "label": "5 kW" },
+            { "value": "01110", "label": "10 kW" },
+            { "value": "01111", "label": "10 mW" },
+            { "value": "10000", "label": "20 mW" },
+            { "value": "10001", "label": "30 mW" },
+            { "value": "10010", "label": "50 mW" },
+            { "value": "10011", "label": "80 mW" },
+            { "value": "10100", "label": "125 mW" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Çıkış Gücü Bilgisi 2",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 187
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 98
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 55
+        },
+        {
+          "type": "number",
+          "label": "Desteklenen Çıkış Gücü Sayısı",
+          "bytes": 1,
+          "value": 0,
+          "placeholder": "0-12"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 1",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 2",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 3",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 4",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 5",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 6",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 7",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 8",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 9",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 10",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 11",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        },
+        {
+          "type": "number",
+          "label": "Çıkış Gücü 12",
+          "bytes": 4,
+          "value": 0,
+          "placeholder": "0-10000000"
+        }
+      ]
+    },
+    {
+      "name": "Konfigürasyon Tipi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 221
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 9
+        },
+        {
+          "type": "select",
+          "label": "Konfigürasyon Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": 1, "label": "PR7_150W_ATU_PPS  " },
+            { "value": 2, "label": "PR7_150W_ATU" },
+            { "value": 3, "label": "PR7_150W_PPS" },
+            { "value": 4, "label": "PR7_150W" },
+            { "value": 5, "label": "PR8_400W_ATU_PPS_PA1" },
+            { "value": 6, "label": "PR8_400W_ATU_PA1" },
+            { "value": 7, "label": "PR8_400W_PPS_PA1" },
+            { "value": 8, "label": "PR8_400W_PA1" },
+            { "value": 9, "label": "PR8_1000W_ATU_PPS_PA1_PA2" },
+            { "value": 10, "label": "PR8_1000W_PPS_PA1_PA2" },
+            { "value": 11, "label": "PR9_VLF_HF_ALMAC" },
+            { "value": 12, "label": "PR9_VLF_HF_ALMAC_PPS" },
+            { "value": 13, "label": "PR8_500W_HMK_PA3050" },
+            { "value": 14, "label": "PR8_500W_HMK_PA3050_ATU3050" },
+            { "value": 15, "label": "PR8_500W_HMK_PA3050_ATU3050A" },
+            { "value": 16, "label": "PR8_1000W_HMK_PA3100" },
+            { "value": 17, "label": "PR8_1000W_HMK_PA3100_ATU3100" },
+            { "value": 18, "label": "PR8_5KW" },
+            { "value": 19, "label": "PR8_10KW" },
+            { "value": 20, "label": "PR8_EXCITER" },
+            { "value": 21, "label": "PR8_FER_400W_RFTR_PA" },
+            { "value": 22, "label": "PR8_FER_400W_RFTR_PA_FILKON_ATU" },
+            { "value": 23, "label": "PR8_FER_1000W_RFTR_PA" },
+            { "value": 24, "label": "PR8_FER_1000W_RFTR_PA_FILKON_ATU" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "FA Desteği",
+          "bytes": 1,
+          "options": [
+            { "label": "Yok", "value": 1 },
+            {
+              "label": "Var",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Harici Ağ Desteği",
+          "bytes": 1,
+          "options": [
+            { "label": "Yok", "value": 1 },
+            {
+              "label": "Var",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gönderme Engelleme Durum Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 147
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Gönderme Engelleme",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Devrede Değil" },
+            { "value": 1, "label": "Devrede" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sürekli Gönderme Durum Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 215
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Sürekli Gönderme",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Devrede Değil" },
+            { "value": 1, "label": "Devrede" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VOX Durum Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 216
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "VOX Durumu",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "Devrede Değil" },
+            { "value": 1, "label": "Devrede" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kanal Tarama Tipi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 229
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Kanal Tarama Tipi",
+          "bytes": 1,
+          "options": [
+            { "value": "01", "label": "Manual" },
+            { "value": "10", "label": "Otomatik" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kanal Tarama Süresi Bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 239
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "number",
+          "label": "Kanal Tarama Süresi",
+          "bytes": 1,
+          "value": 1,
+          "placeholder": "1-80 (hex)"
+        }
+      ]
+    },
+    {
+      "name": "Kanal Tarama Durumu Bildir",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 240
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 7
+        },
+        {
+          "type": "select",
+          "label": "Kanal Tarama Durumu",
+          "bytes": 1,
+          "options": [
+            { "value": "01", "label": "KANAL TARAMA BAŞLADI" },
+            { "value": "10", "label": "KANAL TARAMA YAPILIYOR" },
+            { "value": "11", "label": "KANAL TARAMA BİTTİ/YOK" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Modem Tx Ayarları bilgisi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 149
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 13
+        },
+        {
+          "type": "select",
+          "label": "Veri Interleaver",
+          "bytes": 1,
+          "options": [
+            { "value": "000", "label": "Yok" },
+            { "value": "001", "label": "En Kısa" },
+            { "value": "010", "label": "Çok Kısa" },
+            { "value": "011", "label": "Kısa" },
+            { "value": "100", "label": "Orta" },
+            { "value": "101", "label": "Uzun" },
+            { "value": "110", "label": "Çok Uzun" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Veri Hızı (bps)",
+          "bytes": 1,
+          "options": [
+            { "value": "00000", "label": "75C" },
+            { "value": "00001", "label": "150C" },
+            { "value": "00010", "label": "300C" },
+            { "value": "00011", "label": "600C" },
+            { "value": "00100", "label": "1200C" },
+            { "value": "00101", "label": "2400C" },
+            { "value": "00110", "label": "3200C" },
+            { "value": "00111", "label": "4800C" },
+            { "value": "01000", "label": "6400C" },
+            { "value": "01001", "label": "8000C" },
+            { "value": "01010", "label": "9600C" },
+            { "value": "01011", "label": "12800U" },
+            { "value": "01100", "label": "1200U" },
+            { "value": "01101", "label": "2400U" },
+            { "value": "01110", "label": "3600U" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Dalga Şekli",
+          "bytes": 1,
+          "options": [
+            { "value": 0, "label": "S4539" },
+            { "value": 1, "label": "S4285" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Ses Hızı (bps)",
+          "bytes": 1,
+          "options": [
+            { "value": "00", "label": "2400CV" },
+            { "value": "01", "label": "600CV" },
+            { "value": "10", "label": "1200CV" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Ses Interleaver",
+          "bytes": 1,
+          "options": [
+            { "value": "000", "label": "Yok" },
+            { "value": "001", "label": "Kısa" }
+          ]
+        },
+        {
+          "type": "hidden",
+          "label": "Rezerve",
+          "bytes": 1,
+          "value": 0
+        },
+        {
+          "type": "select",
+          "label": "SMS Hızı",
+          "bytes": 1,
+          "options": [
+            { "value": "00", "label": "75_SMS" },
+            { "value": "01", "label": "150_SMS" },
+            { "value": "10", "label": "300_SMS" }
+          ]
+        }
+      ]
+    }
+  ]
+}

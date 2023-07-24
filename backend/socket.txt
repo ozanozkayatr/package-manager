@@ -1,0 +1,30 @@
+import socket
+import struct
+
+def send_packet(src_mac, dst_mac, ether_type, payload):
+    # Create a raw socket
+    socket_obj = socket.socket(socket.AF_PACKET, socket.SOCK_RAW)
+    
+    # Specify the network interface to send on
+    interface = 'enp24s0' 
+
+    # Convert MAC addresses and EtherType to bytes
+    src_mac_bytes = bytes.fromhex(src_mac.replace(':', ''))
+    dst_mac_bytes = bytes.fromhex(dst_mac.replace(':', ''))
+    ether_type_bytes = struct.pack('!H', ether_type)
+
+    # Create Ethernet packet
+    packet = dst_mac_bytes + src_mac_bytes + ether_type_bytes + payload.encode()
+
+    # Send the packet
+    socket_obj.bind((interface, 0))
+    socket_obj.send(packet)
+
+# Example usage
+src_mac = '30:9c:23:df:d2:5f'
+dst_mac = '66:77:88:99:aa:bb'
+ether_type = 0x0123  # IP
+data = 'Hello, World!'
+
+send_packet(src_mac, dst_mac, ether_type, data)
+

@@ -1,0 +1,42 @@
+import React from "react";
+import crc from "crc";
+import { Buffer } from "buffer";
+
+function calculateCRC(data) {
+  let crc = 0xffff;
+  let polynomial = 0x1021;
+
+  let buffer = [];
+
+  // Convert hexadecimal data to a string and extract individual bytes
+  let dataString = data.toString(16);
+  for (let i = 0; i < dataString.length; i += 2) {
+    buffer.push(parseInt(dataString.substring(i, i + 2), 16));
+  }
+
+  for (let index = 0; index < buffer.length; index++) {
+    crc ^= buffer[index] << 8;
+
+    for (let i = 0; i < 8; i++) {
+      if (crc & 0x8000) {
+        crc = (crc << 1) ^ polynomial;
+      } else {
+        crc = crc << 1;
+      }
+    }
+  }
+
+  return crc & 0xffff;
+}
+
+let val = 0xaa020004;
+
+let crcResult = calculateCRC(val);
+let crcResultString = crcResult.toString(16);
+console.log(crcResultString);
+
+function Checksum() {
+  return <div className="checksum"></div>;
+}
+
+export default Checksum;

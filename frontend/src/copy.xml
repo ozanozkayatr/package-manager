@@ -1,0 +1,23 @@
+{
+      "name": "Sürekli CİT Hata Bildirimi",
+      "components": [
+        {
+          "type": "hidden",
+          "label": "Senkronizasyon",
+          "bytes": 1,
+          "value": 170
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Numarası",
+          "bytes": 1,
+          "value": 132
+        },
+        {
+          "type": "hidden",
+          "label": "Paket Uzunluğu",
+          "bytes": 2,
+          "value": 10
+        }
+      ]
+    }
