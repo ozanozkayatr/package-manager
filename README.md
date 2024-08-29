@@ -21,3 +21,21 @@ This project is a network packet simulator built with Flask and React. It allows
    git clone git@github.com:ozanozkayatr/package-manager.git
    cd package-manager/backend
 '''
+
+2. **Create a virtual environment (optional but recommended)**:
+
+   ```bash
+   python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+'''
+
+3. **Install dependencies**:
+   ```bash
+  pip install -r requirements.txt
+'''
+
+4. **Run the Flask app**:
+   ```bash
+   flask run
+'''
